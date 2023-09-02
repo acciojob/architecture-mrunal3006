@@ -1,1 +1,46 @@
 /*  your css code here. If applicable */
+body {
+	 width: 1100px;
+    font-family: Arial, sans-serif;
+    background-color: lightcyan;
+    
+}
+
+h1 {
+    text-align: center;
+}
+.imageContainer {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.imageContainer img {
+    max-width: 100%;
+    height: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+	border: solid;
+}
+
+table td {
+    padding: 10px;
+    text-align: center;
+    vertical-align: top;
+}
+.columnFirst{
+	border: solid;
+    width: 200px;
+}
+
+.columnSecond{
+	border: solid;
+    width: 600px;
+}
+.columnThird{
+	border: solid;
+	width: 200px;
+}
